@@ -1,9 +1,3 @@
-/* font-family: 'Caveat', cursive;
-font-family: 'Julee', cursive;
-font-family: 'Permanent Marker', cursive;
-font-family: 'Poppins', sans-serif;
- */
-
 * {
     margin: 0;
     padding: 0;
@@ -62,7 +56,7 @@ header {
     right: 0;
     bottom: -4px;
     width: 0%;
-    height: 2px;
+    height: 1px;
     background: #fff;
     border-radius: 8px;
     transition: all .45s ease;
