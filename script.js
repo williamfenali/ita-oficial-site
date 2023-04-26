@@ -16,4 +16,15 @@ const sr = ScrollReveal({
 sr.reveal('.content-text', {delay: 200, origin: 'top'});
 sr.reveal('.content-img', {delay: 450, origin: 'top'});
 sr.reveal('.logo', {delay: 550, origin: 'left'});
-sr.reveal('.scroll-down', {delay: 550, origin: 'right'});
+
+const container = document.querySelector('.container')
+const btnPopup = document.querySelector('.btnLogin-popup');
+const closeIcon = document.querySelector('.close-icon');
+
+btnPopup.addEventListener('click', () => {
+    container.classList.add('active-popup');
+});
+
+closeIcon.addEventListener('click', () => {
+    container.classList.remove('active-popup');
+});
