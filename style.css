@@ -122,7 +122,7 @@ section {
     width: 460px;
     background: transparent;
     border-radius: 24px;
-    border: 3px solid rgba(257, 257, 257, .4);
+    border: 1px solid rgba(257, 257, 257, .4);
     backdrop-filter: blur(25px);
     box-shadow: rgba(17, 12, 46, .15) 0px 48px 100px 0px;
     display: flex;
@@ -145,7 +145,7 @@ section {
     position: relative;
     height: 52px;
     width: 100%;
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #fff;
     margin: 32px 0;
 }
 .input-box label{
@@ -361,16 +361,26 @@ section {
         top: 100%;
         right: -100%;
         width: 300px;
-        height: 45vh;
+        height: 30vh;
         background: black;
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding: 50px 20px;
+        padding: 20px 20px;
         transition: all .55s ease;
+        border-radius: 10px 0 0 10px;
+        border-left: 1px #fff solid;
+        border-top: 1px #fff solid;
+        border-bottom: 1px #fff solid;
     }
 
     .navlist a {
+        margin-left: 0;
+        display: block;
+        margin: 7px 0;
+    }
+
+    .navlist button {
         margin-left: 0;
         display: block;
         margin: 7px 0;
