@@ -17,6 +17,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat&family=Julee&family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
     <title>Calendário</title>
 </head>
 
@@ -32,7 +36,17 @@
     </header>
 
     <section class="content">
-        
+        <div class="content-text" style="text-align: center;">
+            <h4>Presidente</h4>
+            <h5>Fernando Kaiper Ramos de Freitas</h5>
+            <h5>(66) 9.9909-4724</h5>
+        </div>
+        <div class="content-text" style="text-align: center;">
+            <h4>VIce presidente</h4>
+            <h5>Rafael Bazanella</h5>
+            <h5>(66) 9.8111-7297</h5>
+        </div>
+        <div id="map" class="map"></div>
     </section>
 
     <!-- scroll reveal effect https://scrollrevealjs.org/-->
