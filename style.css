@@ -90,6 +90,7 @@ section {
     min-height: 100vh;
     background: linear-gradient(245.59deg, #0a240c 0%, #010c02 28.53%, #000000 75.52%);
     position: relative;
+    padding-top: 150px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -214,10 +215,6 @@ section {
         transition: .2s;
     }
 
-    .content-text {
-        padding-top: 115px;
-    }
-
     .content-img {
         text-align: center;
     }
@@ -247,8 +244,8 @@ section {
         position: absolute;
         top: 100%;
         right: -100%;
-        width: 300px;
-        height: 30vh;
+        width: 150px;
+        height: 17vh;
         background: black;
         display: flex;
         align-items: center;
@@ -287,5 +284,14 @@ section {
     section {
         position: relative;
         padding: 10% 10%;
+    }
+
+    .content-text{
+        text-align: center;
+    }
+
+    .content-text a {
+        padding: 12px 20px;
+        font-size: 12px;
     }
 }
