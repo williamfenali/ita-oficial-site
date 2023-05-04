@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Zen Loop', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
     list-style: none;
     text-decoration: none;
 }
@@ -27,10 +27,9 @@ header {
 }
 
 .logo span {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: white;
-    font-family: 'Zen Loop', cursive;
     margin-left: 30px;
 }
 
@@ -49,8 +48,8 @@ header {
 .navlist a {
     position: relative;
     color: white;
-    margin-left: 45px;
-    font-size: 15px;
+    margin-left: 50px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -72,7 +71,7 @@ header {
 
 #menu-icon {
     color: white;
-    font-size: 35px;
+    font-size: 25px;
     z-index: 10001;
     cursor: pointer;
     display: none;
@@ -99,31 +98,31 @@ section {
 
 .content-text h1 {
     font-family: 'Stick No Bills', sans-serif;
-    font-size: 90px;
+    font-size: 100px;
     line-height: 1;
     color: white;
-    margin: 0 0 45px;
+    margin: 0 0 25px;
 }
 
 .content-text h4 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     color: white;
     margin-bottom: 10px;
 }
 
 .content-text h5 {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     color: white;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .content-text p {
     color: white;
     font-size: 15px;
     line-height: 1.9;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     text-align: justify;
 }
 
@@ -135,7 +134,7 @@ section {
     border-radius: 30px;
     padding: 12px 30px;
     line-height: 1.4;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
     transition: all .55s ease;
